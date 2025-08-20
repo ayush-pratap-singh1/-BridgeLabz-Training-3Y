@@ -8,6 +8,8 @@ public class ques16 {
         int numberOfStudents = input.nextInt();
 
         int handshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
+        
+
 
         System.out.println("Maximum number of possible handshakes: " + handshakes);
     }
